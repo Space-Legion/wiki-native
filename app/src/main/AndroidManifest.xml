@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spacelegion">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpaceLegion">
+        <activity android:name=".About"></activity>
+        <activity android:name=".VimGuide" />
+        <activity android:name=".GitCheatSheet" />
+        <activity android:name=".Other" />
+        <activity android:name=".CentOSServer" />
+        <activity android:name=".DebianServer" />
+        <activity android:name=".LinuxServer" />
+        <activity android:name=".Servers" />
+        <activity android:name=".AndroidPrivacyGuide" />
+        <activity android:name=".Privacy" />
+        <activity android:name=".EtcherDroid" />
+        <activity android:name=".Android" />
+        <activity android:name=".VentoyInstall" />
+        <activity android:name=".VirtualboxArch" />
+        <activity android:name=".dwmInstall" />
+        <activity android:name=".DWMInstall" />
+        <activity android:name=".BSPWMInstall" />
+        <activity android:name=".ArchInstallLegacy" />
+        <activity android:name=".ArchInstallUEFi" />
+        <activity android:name=".UbuntuKVM" />
+        <activity android:name=".ComingSoon" />
+        <activity android:name=".KVM" />
+        <activity android:name=".WindowManagers" />
+        <activity android:name=".ArchInstall" />
+        <activity android:name=".GNULinux" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

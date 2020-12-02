@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SpaceLegion</string>
+    <string name="space_legion">Space Legion</string>
+    <string name="moto">Take back your freedom</string>
+    <string name="our_guides">Our Guides</string>
+    <string name="last_updated_20_11_2020">Last Updated: 20/11/2020</string>
+    <string name="gnu_linux">GNU/Linux</string>
+    <string name="android">Android</string>
+    <string name="web">Web</string>
+    <string name="privacy">Privacy</string>
+    <string name="servers">Servers</string>
+    <string name="other">Other</string>
+    <string name="about">About</string>
+    <string name="arch_linux_installation_guide">Arch Linux Installation Guide</string>
+    <string name="window_managers">Window Managers</string>
+    <string name="ventoy_setup_guide">Ventoy Setup Guide</string>
+    <string name="install_virtualbox_in_arch">Install VirtualBox in Arch</string>
+    <string name="kernel_based_virtual_machine">Kernel-based Virtual Machine</string>
+    <string name="arch_install">Arch Install</string>
+    <string name="arch_linux_uefi_install">Arch Linux UEFI Install</string>
+    <string name="arch_linux_legacy_install">Arch Linux Legacy Install</string>
+    <string name="dwm_installation_guide">DWM Installation Guide</string>
+    <string name="bspwm_installation_guide">BSPWM Installation Guide</string>
+    <string name="wm_install">WM Install</string>
+    <string name="kvm_guide">KVM Guide</string>
+    <string name="ubuntu">Ubuntu</string>
+    <string name="fedora">Fedora</string>
+    <string name="arch">Arch</string>
+    <string name="coming_soon">Coming Soon!</string>
+    <string name="aospguide">AOSP Build Guide</string>
+    <string name="etcherdroid_guide">EtcherDroid Guide</string>
+    <string name="android_pricacy_guide">Android Pricacy Guide</string>
+    <string name="linux_server">Linux Server</string>
+    <string name="debian">Debian</string>
+    <string name="centos">CentOS</string>
+    <string name="git_cheatsheet">Git CheatSheet</string>
+    <string name="release_version">Beta v4.0.1 release</string>
+    <string name="about_motto">Our aim is to promote freedom respecting open source programs on all platforms, Thus reducing your chance of depending the "system" in almost every way possible, This app is intended to promote the goal of making everything beginner friendly, for eg- doing so called "complicated" stuff in the simplest way possible</string>
+    <string name="lead_devoloper">Lead Devoloper</string>
+    <string name="underline1">==============</string>
+    <string name="sarosx">Sarosx</string>
+    <string name="lead_designer_maintainer">Lead Designer, Maintainer</string>
+    <string name="underline2">==========================</string>
+    <string name="nebula">nebula</string>
+    <string name="security">Security</string>
+    <string name="misc">Misc</string>
+    <string name="msic">Miscellaneous</string>
+</resources>

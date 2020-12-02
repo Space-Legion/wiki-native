@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".GNULinux">
+
+    <TextView
+        android:id="@+id/header_gnu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/gnu_linux"
+        android:textColor="@color/orange"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="289dp"
+        android:layout_height="570dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:divider="@drawable/empty_space_divider"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_gnu">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/arch_install"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/insidepage_custom_button"
+            android:text="@string/arch_linux_installation_guide"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/green"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/window_managers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/insidepage_custom_button"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/green"
+            android:text="@string/window_managers" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/kvm_install"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/insidepage_custom_button"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/green"
+            android:text="@string/kernel_based_virtual_machine" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/virtualBox_install"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/insidepage_custom_button"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/green"
+            android:text="@string/install_virtualbox_in_arch" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ventoy_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/insidepage_custom_button"
+            android:text="@string/ventoy_setup_guide"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:fontFamily="monospace"
+            android:textColor="@color/green"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
